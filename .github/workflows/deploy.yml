@@ -41,4 +41,4 @@ jobs:
           script: |
             cd /dockerDir/nginx/project/yzy-test-action-nextjs-docker
             docker build -t nextjs-docker .
-            docker run -p 3002:3000 nextjs-docker
+            docker run -p 3002:3000 -d nextjs-docker
